@@ -1,0 +1,161 @@
+ #box1 {
+            width: 250px;
+            height: 250px;
+            background: mediumslateblue;
+            text-align: center;
+            font-size: 80px;
+            position: absolute;
+
+            animation-play-state: running;
+            animation: totalani;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out;
+
+        }
+
+        @keyframes totalani {
+            from {
+                right: 60%;
+            }
+
+            to {
+                right: 0%;
+            }
+
+            0% {
+                opacity: 0%;
+            }
+
+            10% {
+                background-color: cornsilk;
+            }
+
+            40% {
+                background-color: fuchsia;
+            }
+
+            70% {
+                background-color: blanchedalmond;
+            }
+
+            80% {
+                background-color: darkmagenta;
+            }
+
+            90% {
+                background-color: blueviolet;
+            }
+
+            100% {
+                background-color: midnightblue;
+            }
+        }
+
+        #box2 {
+            width: 250px;
+            height: 250px;
+            background: gold;
+            text-align: center;
+            font-size: 100px;
+            position: absolute;
+            bottom: 30%;
+            left: 20%;
+            padding: 1em 2em;
+            border: none;
+            border-radius: 100px;
+            background-image: linear-gradient(to bottom right, gold, fuchsia);
+
+            animation: animati2;
+            animation-delay: 0ms;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+            animation-play-state: running;
+
+        }
+
+        .boxWithAnimation {
+            width: 250px;
+            height: 250px;
+            background: gold;
+            text-align: center;
+            font-size: 100px;
+            position: absolute;
+            bottom: 30%;
+            left: 20%;
+            padding: 1em 2em;
+            border: none;
+            border-radius: 100px;
+            background-image: linear-gradient(to bottom right, gold, fuchsia);
+
+            animation: animati2;
+            animation-delay: 0ms;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+            animation-play-state: running;
+
+        }
+
+        .boxWithOutAnimation {
+            width: 250px;
+            height: 250px;
+            background: gold;
+            text-align: center;
+            font-size: 100px;
+            position: absolute;
+            bottom: 30%;
+            left: 20%;
+            padding: 1em 2em;
+            border: none;
+            border-radius: 100px;
+            background-image: linear-gradient(to bottom right, gold, fuchsia);
+
+        }
+
+        @keyframes animati2 {
+            100% {
+                transform: rotateZ(360deg);
+            }
+        }
+
+        body {
+            background: rgb(0, 0, 87);
+        }
+        #toogleAnime{
+        position: absolute;
+        width: 340px;
+        height: 340px;
+        font-size: 50px;
+        border-radius: 50px;
+        background-image: linear-gradient(to top left, lime,magenta);
+        top: 70%;
+        left: 70%;
+        }
+        #toggleAnime:hover{
+            opacity: 0.7;
+        }
+        #sumbits{
+        position: absolute;
+        top: 9%;
+        width: 100px;
+        height: 50px;
+        font-size: large;
+        border-radius: 10px;
+        background-image: linear-gradient(crimson,purple,navy);
+        box-shadow: none;
+        }
+        #sumbits:hover{
+            opacity: 0.7;
+        }
+        #sumbits:active{
+        outline: 20px;
+        }
+        #wellcam{
+        font:larger;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aquamarine;
+        }
+        #erm{
+            background-color: white;
+        }
